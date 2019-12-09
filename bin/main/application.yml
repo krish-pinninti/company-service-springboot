@@ -1,0 +1,23 @@
+properties:
+  path: /opt/technoaps/conf
+  
+jasypt:
+  encryptor:
+    bean: encryptorBean
+    password: aL3Nf9tC
+server:
+  port: 8080
+  max-http-header-size: 128KB
+  servlet:
+    contextPath: /company-service-1.0
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    show-sql: true
+    database: mysql
+  jooq:
+    sql-dialect: org.hibernate.dialect.MySQL5Dialect
+      
+    
+    
